@@ -14,7 +14,7 @@ const VideoDetails = ({video}) => {
     hideComment ? setButtonText('Hide Comment'):setButtonText('Show Comment')
   }
 
-
+// console.log()
   return (
       <div className='video-details-container'>
           <h1>{video.title}</h1>
